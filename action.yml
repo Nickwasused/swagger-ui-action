@@ -1,6 +1,6 @@
 name: 'Swagger UI Action'
 description: 'Generate Swagger UI for API documentation'
-author: 'Leon Kiefer'
+author: 'Nickwasused'
 inputs:
   output:
     description: 'Output path for the generated Swagger UI files'
