@@ -1,4 +1,4 @@
-# Swagger UI Action [![build-test](https://github.com/Legion2/swagger-ui-action/workflows/build-test/badge.svg)](https://github.com/Legion2/swagger-ui-action/actions?query=workflow%3Abuild-test+branch%3Amain)
+# Swagger UI Action [![build-test](https://github.com/Nickwasused/swagger-ui-action/workflows/build-test/badge.svg)](https://github.com/Nickwasused/swagger-ui-action/actions?query=workflow%3Abuild-test+branch%3Amain)
 Generate Swagger UI static html files and configuration to be deployed to GitHub Pages.
 
 > This action only works on linux runners.
@@ -26,7 +26,7 @@ For example, to deploy it to GitHub Pages another Action is required.
 Example steps from a workflow to generate and deploy Swagger UI to GitHub Pages:
 ```yaml
       - name: Generate Swagger UI
-        uses: Legion2/swagger-ui-action@v1
+        uses: Nickwasused/swagger-ui-action@v1
         with:
           output: swagger-ui
           spec-file: openapi.json
@@ -37,7 +37,7 @@ Example steps from a workflow to generate and deploy Swagger UI to GitHub Pages:
           publish_dir: swagger-ui
 ```
 
-For a full example have a look at [this workflow file](https://github.com/Legion2/open-cue-service/blob/master/.github/workflows/pages.yml).
+For a full example have a look at [this workflow file](https://github.com/Nickwasused/open-cue-service/blob/master/.github/workflows/pages.yml).
 
 ## Development
 
